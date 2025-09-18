@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Введите данные</title>
+</head>
+<body>
+    <h2>Введите ваши данные</h2>
+    <form action="profile.php" method="post">
+        <label>Имя:</label>
+        <input type="text" name="first_name" required><br><br>
+        
+        <label>Фамилия:</label>
+        <input type="text" name="last_name" required><br><br>
+        
+        <label>Возраст:</label>
+        <input type="number" name="age" min="1" max="120" required><br><br>
+        
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
